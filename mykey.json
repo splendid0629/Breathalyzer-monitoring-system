@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "drunkdrivingmanagement",
+  "private_key_id": "8d4ee3f8fe28c6e74915291012ba639da15437bd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8GYEquOuHhoEc\nyp/4Nt5M3SnviAzDi7kW6oSPuY0zONWmNiZBLFvzZxl7pPuEyFbbMUBYby0COYQ5\noOHMB978PGNUP/MlP9v/apyUTWi8smrnNghr3EeZyI80YoWRfyJ62uM6lHAxYwUn\na6PgMCs5OjbUkgkI1Jm9KMcKiSh+tujal2wk1OQXMgM55m4xMrm4TOw3ut1LvkEc\npmv37mimqSrqlcElykExHlsJ7JiCyXM06EWLz5v1SPf5MAV7PzmEuSU3IG9dHq/W\n2uIMgyxYNQpb7YZEhvkb84dOqHm/5tdnFjpgfeZRnpJWI9xRh3XJDGZ5TdDQHgKX\ncBAjZtn/AgMBAAECggEAT9h1u5hmpo9ihEHA+SD1aWRidkLmxCUuCvu/DLGDrjAc\nhSMsRvMZDy//IbzNZbaTJBV6jm+XCAA5UCsqXi0jKyhJM8y3nmLGtNvhHpTjdmI4\nPfByT7Lgk/eOTnrZ3wK8NLFwzn+PRm+Vkv++vx5DYtYCy2Y4Po7cue6y2xaQ4YRx\n8oLdmBKk75ztYPlHnt023H8xVNWvjTTZbMYlKwNU9kTZdpALdRDvsFPemv+/Dzv+\nSbts4e9YpOihpGHV/NAw874TsSfDzfxHF1cGAegBdDVnvbJbJs2kZdxpYr86k6hL\ncMlokDFQDOLJWl5e/0q5Udg2h9SKrJ2s0ATnpFAiaQKBgQDdIPk7gFJ1knzfFaXu\nqnZtSVvneFFr2N/rwTtT3qgui/eDutqMTUCKdTqJ1FpNWg/LgBgoWvqCbW5ezcdC\nNfTTzeimS5fKrrC95inWdz3xGQZlfmNK/UhzguVQVCBRUCZs+saqbAhjepUdHxCM\nnax2t99w1YpBfU4mAuyLkeEhSQKBgQDZwyJ78dHEqYbZhaV2rVXpvh8CDRw+FnYM\nbJIPsOrB7p4EoXq1Sx6uUO2H3n4bqrSbhUI72V5DFwhcO4zQQhdZs4dsALoOBDKX\nH3Ezsi79tbnYh7N+2mAJ+J805JQ6bYagCMNU6tuR+cpcZmjNAdLPW5a3eoTiP1nK\nBavB6thpBwKBgQCjVJKiv3Koww2W3W+VrLUSnefTPcyuIx+qDC0dEs4Yq2ukEiUR\nEpKEcnhNi9szXT1ja3bsf96e7eNjBQ2TuzTeKS4ZfqZcn9GOQm5Oqf7HkVtnJgaD\nQjf8kgd84NaKGPB4+HY7NNaxW76+Js7bfi7/9WqF9kRLgRly/B/qK1MleQKBgHZQ\nDfFXfkgib1DJyw+Ct7XqhQBhTSHypCq15lm+Hp5FXfdYIMpVSRMehx+V4+B2S/Bf\nY5AO1qcO4YzzEduovPUQlJg6gNvSrgXroF6dBej0jke12vEmBp4ERcPAGUTxcv6K\nJE6D184k8Cxpu7D+t6HPukBvwbkHAGrB0ALo7LGLAoGBANG8VRafino68r9G5aJS\nX0065IsvJxPMFt0/md367yik8stLSXNMpMEUNWRXu4Gd6BDJGH+tsob+jsuaYUS3\nopKFm+R9ecjGAm7m82GeLxz4XSj+F4KD8BWFTXAswaHHnpF0N7FtQCjbIZYHutIz\n+M2aJ8l8xGEm3RDHBp7kBHyg\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-tfl2x@drunkdrivingmanagement.iam.gserviceaccount.com",
+  "client_id": "104784933431047754976",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-tfl2x%40drunkdrivingmanagement.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

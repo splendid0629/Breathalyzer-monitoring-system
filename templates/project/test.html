@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!-- 비디오 플레이어 -->
+<video id="videoPlayer" controls autoplay></video>
+
+<!-- 파일 선택 버튼 -->
+<input type="file" id="fileInput">
+
+<!-- Firebase 초기화 -->
+<script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-storage.js"></script>
+
+<script>
+  // Firebase 프로젝트의 구성 정보
+  const firebaseConfig = {
+    apiKey: "AIzaSyCsYLkpR1-N-B96hoLzFZ5eysbf-m1s-Us",
+    authDomain: "drunkdrivingmanagement.firebaseapp.com",
+    projectId: "drunkdrivingmanagement",
+    storageBucket: "drunkdrivingmanagement.appspot.com",
+    messagingSenderId: "393691119991",
+    appId: "1:393691119991:web:b05cccf76d4c362d3b6172"
+  };
+
+  // Firebase 초기화
+  firebase.initializeApp(firebaseConfig);
+
+  // 파일 선택 이벤트 핸들러
+  const fileInput = document.getElementById("fileInput");
+  fileInput.addEventListener("change", handleFileSelect);
+
+  // 파일 선택 처리
+  function handleFileSelect(event) {
+    const file = event.target.files[0];
+    const storageRef = firebase.storage().ref();
+    const fileRef = storageRef.child(file.name);
+
+    // 파일 업로드
+    fileRef.put(file)
+      .then((snapshot) => {
+        console.log("파일 업로드 완료");
+        // 업로드된 파일의 다운로드 URL 가져오기
+        return snapshot.ref.getDownloadURL();
+      })
+      .then((downloadURL) => {
+        console.log("다운로드 URL:", downloadURL);
+        // 비디오 플레이어에 영상 표시
+        const videoPlayer = document.getElementById("videoPlayer");
+        videoPlayer.src = downloadURL;
+      })
+      .catch((error) => {
+        console.error("파일 업로드 오류:", error);
+      });
+  }
+</script>
+
+</body>
+</html>
