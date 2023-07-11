@@ -1,5 +1,5 @@
-
 #my_setting.py
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
