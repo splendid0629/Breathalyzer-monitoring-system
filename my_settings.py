@@ -5,7 +5,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'drunk_driving_management',
         'USER': 'root',
-        'PASSWORD': '921204',
+        'PASSWORD': '980629',
         'HOST': 'localhost',
         'PORT': '3306',
     }
